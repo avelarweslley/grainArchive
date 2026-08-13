@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "Geist-Italic";
+    src: url(../fonts/Geist-Italic-VariableFont_wght.ttf) format(truetype);
+    font-weight: 400 600;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Geinst" ;
+    src: url(../fonts/Geist-VariableFont_wght.ttf) format(truetype);
+    font-weight: 400 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "InstrumentSerif";
+    src: url(../fonts/InstrumentSerif-Italic.ttf) format(truetype);
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: "TiltWarp";
+    src: url(../fonts/TiltWarp-Regular-VariableFont_XROT\,YROT.ttf) format(truetype);
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root{
+    --marquee-font-color: #8C8D92;
+    --navegation-font-color: #0F0E0E;
+
+    --background-body: #1F1F1F ;
+
+    --background-home: #FF5700;
+    --backgroud-archive: #32CE57;
+    --background-about: #A3CAFF;
+    --hover-background-menu: #FFFFFF;
+
+}
