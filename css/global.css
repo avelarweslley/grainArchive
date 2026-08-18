@@ -31,7 +31,8 @@
 :root {
   --marquee-font-color: #8c8d92;
   --navegation-font-color: #0f0e0e;
-  --cards-font-color: #F6F8FB;
+  --cards-font-color: #f6f8fb;
+  --button-font-color:#0F0E0E;
 
   --background-body: #1f1f1f;
 
@@ -39,6 +40,8 @@
   --backgroud-archive: #32ce57;
   --background-about: #a3caff;
   --hover-background-menu: #ffffff;
+  --button-1-color: #ffffff;
+  --button-1-color-hover: #ff5700;
 }
 
 * {
@@ -62,3 +65,42 @@ main {
   gap: 10px;
 }
 
+.button-1 {
+  display: block;
+  width: 100%;
+  padding: 16px 24px;
+  text-decoration: none;
+  background-color: var(--button-1-color);
+  border-radius: 8px;
+}
+.button-1:hover{
+    background-color: var(--button-1-color-hover);
+}
+.button-1 h4{
+  font-family: "InstrumentSerif", sans-serif;
+  font-size: 40px;
+  font-style: italic;
+  line-height: 90%;
+  letter-spacing: -2%;
+  color: var(--button-font-color);
+  text-align: center;
+  font-weight: 100;
+}
+@media screen and (min-width:768px) {
+  .button-1{
+    padding: 24px;
+  }
+  .button-1 h4{
+    font-size: 64px;
+  }
+  
+}
+@media screen and (min-width:1280px) {
+  .button-1{
+    padding: 32px 24px;
+  }
+  .button-1 h4{
+    font-size: 80px;
+  }
+  
+}
