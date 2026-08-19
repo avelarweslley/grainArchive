@@ -33,6 +33,7 @@
   --navegation-font-color: #0f0e0e;
   --cards-font-color: #f6f8fb;
   --button-font-color:#0F0E0E;
+  --feature-font-color: #F6F8FB;
 
   --background-body: #1f1f1f;
 
@@ -42,6 +43,7 @@
   --hover-background-menu: #ffffff;
   --button-1-color: #ffffff;
   --button-1-color-hover: #ff5700;
+  --feature-font-color-hover: #555659;
 }
 
 * {
