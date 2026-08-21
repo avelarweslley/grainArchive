@@ -5,8 +5,9 @@
   background-position: center;
   background-size: cover;
   border-radius: 8px;
-
   position: relative;
+  opacity: 0;
+  animation: appears 0.5s 0.5s ease forwards;
 }
 .featured h2 {
   font-family: "TiltWarp", sans-serif;
@@ -21,6 +22,8 @@
   left: 0;
   right: 0;
   z-index: 1;
+  opacity: 0;
+  animation: appears 0.5s 1s ease forwards;
 }
 .featured .cover-container {
   width: auto;
@@ -28,7 +31,6 @@
   padding: 0 40px;
   display: flex;
   flex-direction: column;
-
   gap: 32px;
   position: relative;
   margin: 155px 10px 40px 10px;
@@ -38,6 +40,10 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  opacity: 0;
+  animation: appears-2  ease both;
+  animation-timeline: view() ;
+  animation-range: entry 20% cover 40%;
 }
 .featured .cover-container .texts-cover {
   width: 100%;
@@ -90,4 +96,23 @@
 }
 .featured .cover-container .texts-cover .playContent:hover p {
   color: var(--feature-font-color-hover);
+}
+
+@keyframes appears {
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes appears-2 {
+  from {
+    transform: translateY(100%);
+  }
+  40%{
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
