@@ -32,7 +32,8 @@
   --marquee-font-color: #8c8d92;
   --navegation-font-color: #0f0e0e;
   --cards-font-color: #f6f8fb;
-  --button-font-color:#0F0E0E;
+  --button-font-color: #0f0e0e;
+  --feature-font-color: #f6f8fb;
 
   --background-body: #1f1f1f;
 
@@ -42,6 +43,7 @@
   --hover-background-menu: #ffffff;
   --button-1-color: #ffffff;
   --button-1-color-hover: #ff5700;
+  --feature-font-color-hover: #555659;
 }
 
 * {
@@ -51,7 +53,7 @@
 }
 
 body {
-  background: var(--background-body);
+  background-color: var(--background-body);
 }
 
 main {
@@ -63,6 +65,8 @@ main {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  opacity: 0;
+  animation: appears 0.5s 0.5s ease-in forwards;
 }
 
 .button-1 {
@@ -73,10 +77,11 @@ main {
   background-color: var(--button-1-color);
   border-radius: 8px;
 }
-.button-1:hover{
-    background-color: var(--button-1-color-hover);
+
+.button-1:hover {
+  background-color: var(--button-1-color-hover);
 }
-.button-1 h4{
+.button-1 h4 {
   font-family: "InstrumentSerif", sans-serif;
   font-size: 40px;
   font-style: italic;
@@ -86,21 +91,19 @@ main {
   text-align: center;
   font-weight: 100;
 }
-@media screen and (min-width:768px) {
-  .button-1{
+@media screen and (min-width: 768px) {
+  .button-1 {
     padding: 24px;
   }
-  .button-1 h4{
+  .button-1 h4 {
     font-size: 64px;
   }
-  
 }
-@media screen and (min-width:1280px) {
-  .button-1{
+@media screen and (min-width: 1280px) {
+  .button-1 {
     padding: 32px 24px;
   }
-  .button-1 h4{
+  .button-1 h4 {
     font-size: 80px;
   }
-  
 }
