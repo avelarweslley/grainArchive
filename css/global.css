@@ -6,7 +6,7 @@
   font-display: swap;
 }
 @font-face {
-  font-family: "Geinst";
+  font-family: "Geist";
   src: url(../fonts/Geist-VariableFont_wght.ttf) format("truetype");
   font-weight: 400 600;
   font-style: normal;
@@ -34,12 +34,15 @@
   --cards-font-color: #f6f8fb;
   --button-font-color: #0f0e0e;
   --feature-font-color: #f6f8fb;
+  --table-font-color: #0f0e0e;
 
   --background-body: #1f1f1f;
 
   --background-home: #ff5700;
   --backgroud-archive: #32ce57;
   --background-about: #a3caff;
+  --background-table: #f5f5f5;
+  --divider-table: #555659;
   --hover-background-menu: #ffffff;
   --button-1-color: #ffffff;
   --button-1-color-hover: #ff5700;

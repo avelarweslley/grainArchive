@@ -1,0 +1,55 @@
+.table {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  background-color: var(--background-table);
+  border-radius: 8px;
+  padding: 40px 10px;
+}
+.table h2 {
+  font-family: "TiltWarp", sans-serif;
+  font-size: 64px;
+  line-height: 80%;
+  letter-spacing: -4%;
+  font-weight: 400;
+  color: var(--table-font-color);
+}
+.table table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.table table .Film{
+    text-align: left;
+}
+.table table .Year{
+    text-align: right;
+}
+.tableConteiner th {
+  font-family: "Geinst", sans-serif;
+  font-size: 20px;
+  line-height: 140%;
+  letter-spacing: -2%;
+  font-weight: 600;
+  color: var(--h2-table-font-color);
+  opacity: 60%;
+  font-style: normal;
+  padding-bottom: 12px;
+  text-align: left;
+}
+.tableConteiner td {
+  font-family: "Geinst", sans-serif;
+  font-size: 20px;
+  line-height: 140%;
+  letter-spacing: -2%;
+  font-weight: 600;
+  color: var(--h2-table-font-color);
+  font-style: normal;
+  padding: 16px 0;
+  border-top: 1px dashed var(--divider-table);
+  border-bottom: 1px dashed var(--divider-table);
+}
+.table-desktop {
+  display: none;
+}
