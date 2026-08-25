@@ -1,4 +1,5 @@
-@import url(../css/global.css);
-@import url(../css/header.css);
-@import url(../css/articles.css);
-@import url(../css/featured.css);
+@import url(global.css);
+@import url(header.css);
+@import url(articles.css);
+@import url(featured.css);
+@import url(table.css);
