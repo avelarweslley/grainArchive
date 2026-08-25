@@ -20,11 +20,19 @@
   border-collapse: collapse;
   width: 100%;
 }
-.table table .Film{
-    text-align: left;
+th:nth-child(1){
+  text-align: left;
 }
-.table table .Year{
-    text-align: right;
+th:nth-child(2){
+  text-align: end;
+  padding-right: 10px;
+}
+
+td:nth-child(1){
+  text-align: left;
+}
+td:nth-child(2){
+  text-align: right;
 }
 .tableConteiner th {
   font-family: "Geinst", sans-serif;
@@ -36,7 +44,7 @@
   opacity: 60%;
   font-style: normal;
   padding-bottom: 12px;
-  text-align: left;
+
 }
 .tableConteiner td {
   font-family: "Geinst", sans-serif;
