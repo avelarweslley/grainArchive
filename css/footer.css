@@ -1,0 +1,177 @@
+.footer-conteiner {
+  width: 100%;
+  height: auto;
+  background-color: var(--background-footer);
+  padding: 40px 20px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+.footer-conteiner .logo-conteiner {
+  max-width: 335px;
+  margin: 0 auto;
+}
+.footer-conteiner .logo-conteiner .logo-footer-desktop{
+    display: none;
+}
+.footer-conteiner .logo-conteiner img {
+  max-width: 100%;
+  height: auto;
+}
+.footer-conteiner .footer-infos {
+  width: 335px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
+  margin: 0 auto;
+}
+.footer-conteiner .footer-infos .footer-links {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+.footer-conteiner .footer-infos .footer-links .links-interno {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.footer-conteiner .footer-infos .footer-links .links-social {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.footer-conteiner .footer-infos .footer-links .links-interno p {
+  font-family: "Geist", sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 4%;
+  line-height: 140%;
+  color: var(--footer-font-color);
+  border-radius: 999px;
+  border: 1px solid var(--footer-font-color);
+  width: fit-content;
+  padding: 2px 5px;
+  margin-bottom: 6px;
+}
+.footer-conteiner .footer-infos .footer-links .links-interno a {
+  font-family: "Geist", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: -2%;
+  line-height: 140%;
+  color: var(--footer-font-color);
+}
+.footer-conteiner .footer-infos .footer-links .links-interno a:hover{
+    color: var(--feature-font-color-hover);
+}
+.footer-conteiner .footer-infos .footer-links .links-social p {
+  font-family: "Geist", sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 4%;
+  line-height: 140%;
+  color: var(--footer-font-color);
+  border-radius: 999px;
+  border: 1px solid var(--footer-font-color);
+  width: fit-content;
+  padding: 2px 5px;
+  margin-bottom: 6px;
+}
+.footer-conteiner .footer-infos .footer-links .links-social a {
+  font-family: "Geist", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: -2%;
+  line-height: 140%;
+  color: var(--footer-font-color);
+}
+.footer-conteiner .footer-infos .footer-links .links-social a:hover{
+    color: var(--feature-font-color-hover);
+}
+.footer-conteiner .footer-infos p {
+  font-family: "Geist", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: -2%;
+  line-height: 140%;
+  color: var(--footer-font-color);
+}
+@media screen and (min-width: 768px) {
+  .footer-conteiner .logo-conteiner {
+    max-width: 100%;
+    margin: 0;
+  }
+  .footer-conteiner .logo-conteiner img {
+    width: 100%;
+    height: auto;
+  }
+  .footer-conteiner .footer-infos {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 0;
+    margin: 0;
+  }
+  .footer-conteiner .footer-infos .footer-links {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+  }
+  .footer-conteiner .footer-infos p {
+    font-size: 16px;
+    text-align: right;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .footer-conteiner {
+    padding: 120px 20px 20px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-between;
+    gap: 40px;
+  }
+  .footer-conteiner .logo-conteiner img{
+    display: none;
+  }
+  .footer-conteiner .logo-conteiner .logo-footer-desktop{
+    display: block;
+}
+.footer-conteiner .logo-conteiner h1{
+    font-family: "TiltWarp",sans-serif;
+    font-weight: 400;
+    font-size: 200px;
+    line-height: 85%;
+    letter-spacing: -4%;
+    color: var(--logo-footer-desktop);
+}
+  .footer-conteiner .footer-infos {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: inherit;
+    align-items: end;
+    gap: 100px;
+    margin: 0;
+  }
+  .footer-conteiner .footer-infos .footer-links .links-interno{
+    text-align: right;
+  }
+  .footer-conteiner .footer-infos .footer-links .links-social{
+    text-align: right;
+  }
+  .footer-conteiner .footer-infos .footer-links .links-interno p{
+    align-self: self-end;
+  }
+  .footer-conteiner .footer-infos .footer-links .links-social p{
+    align-self: self-end;
+  }
+}
