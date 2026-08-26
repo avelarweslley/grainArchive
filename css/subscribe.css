@@ -1,0 +1,177 @@
+.subscribe {
+  width: 100%;
+  height: auto;
+  background: url(../img/background-subscribe-mobile.png) no-repeat;
+  background-size: cover;
+  padding: 180px 40px 40px 40px;
+}
+.subscribe .subscribe-conteiner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url(../img/Viewport-subscribe-mobile-Tablet.jpg) no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+.subscribe .subscribe-conteiner .faixa-top {
+  width: 100%;
+  height: 52px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 2px dashed #0f0e0e;
+}
+.subscribe .subscribe-conteiner .faixa-top .elipse {
+  width: 20px;
+  height: 20px;
+  background-color: #0f0e0e;
+  border-radius: 50%;
+}
+.subscribe .subscribe-conteiner .text-conteiner {
+  width: 100%;
+  height: auto;
+  padding: 64px 0;
+}
+.subscribe .subscribe-conteiner .text-conteiner .texts-subscribe {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  justify-content: center;
+  align-items: center;
+  padding: 0 40px;
+}
+.subscribe .subscribe-conteiner .text-conteiner .texts-subscribe .cta-text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.subscribe .subscribe-conteiner .text-conteiner .texts-subscribe h4 {
+  font-family: "InstrumentSerif", sans-serif;
+  font-size: 40px;
+  line-height: 90%;
+  letter-spacing: -2%;
+  font-weight: 400;
+  font-style: italic;
+  text-align: center;
+  color: #0f0e0e;
+}
+.subscribe .subscribe-conteiner .text-conteiner .texts-subscribe p {
+  font-family: "Geist", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 140%;
+  letter-spacing: -2%;
+  text-align: center;
+  color: #0f0e0e;
+}
+.subscribe .subscribe-conteiner .text-conteiner .texts-subscribe a {
+  width: auto;
+  height: 56px;
+  text-decoration: none;
+  background-color: #0f0e0e;
+  color: #f6f8fb;
+  font-family: "Geist", sans-serif;
+  font-size: 18px;
+  line-height: 140%;
+  letter-spacing: -2%;
+  font-weight: 600;
+  font-style: normal;
+  padding: 16px;
+}
+.subscribe .subscribe-conteiner .text-conteiner .texts-subscribe a:hover {
+  background-color: #1f1f1f;
+}
+
+.subscribe .subscribe-conteiner .faixa-bottom {
+  width: 100%;
+  height: 52px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  border-top: 2px dashed #0f0e0e;
+}
+.subscribe .subscribe-conteiner .faixa-bottom .elipse {
+  width: 20px;
+  height: 20px;
+  background-color: #0f0e0e;
+  border-radius: 50%;
+}
+
+@media screen and (min-width: 768px) {
+  .subscribe {
+    height: auto;
+    background: url(../img/background-subscribe-tablet.png) no-repeat;
+    background-size: cover;
+    padding: 180px 40px 80px 40px;
+  }
+  .subscribe .subscribe-conteiner {
+    width: 100%;
+    height: 360px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-position: right top;
+    background-size: cover;
+  }
+  .subscribe .subscribe-conteiner .faixa-top {
+    width: 64px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-right: 2px dashed #0f0e0e;
+    border-bottom: none;
+  }
+  .subscribe .subscribe-conteiner .faixa-bottom {
+    width: 64px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-left: 2px dashed #0f0e0e;
+    border-top: none;
+  }
+  .subscribe .subscribe-conteiner .faixa-top .elipse {
+    width: 24px;
+    height: 24px;
+  }
+  .subscribe .subscribe-conteiner .text-conteiner {
+    margin: auto auto;
+    padding: 0 0;
+  }
+  .subscribe .subscribe-conteiner .text-conteiner .texts-subscribe {
+    margin: 0 auto;
+    padding: 0 0;
+  }
+  .subscribe .subscribe-conteiner .text-conteiner .texts-subscribe h4 {
+    font-size: 64px;
+  }
+  .subscribe .subscribe-conteiner .text-conteiner .texts-subscribe a {
+    font-size: 20px;
+    padding: 20px 24px;
+    height: auto;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .subscribe {
+    background: url(../img/background-subscribe-desktop.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .subscribe .subscribe-conteiner {
+    height: 464px;
+    background: url(../img/Viewport-subscribe-Desktop.jpg) no-repeat;
+    background-size: cover;
+  }
+    .subscribe .subscribe-conteiner .text-conteiner .texts-subscribe h4 {
+    font-size: 80px;
+  }
+  .subscribe .subscribe-conteiner .text-conteiner .texts-subscribe p{
+    font-size: 20px;
+  }
+}
